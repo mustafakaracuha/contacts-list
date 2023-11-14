@@ -1,8 +1,8 @@
 # Contacts List
 
 <p align="center">
-  <img src="https://github.com/mustafakaracuha/crypto-tracker-app/blob/main/src/assets/images/home.png" alt="Home" width="400" />
-  <img src="https://github.com/mustafakaracuha/crypto-tracker-app/blob/main/src/assets/images/detail.png" alt="Detail" width="400" />
+  <img src="https://github.com/mustafakaracuha/contacts-list/blob/main/src/assets/images/app.png" alt="Home" width="400" />
+  <img src="https://github.com/mustafakaracuha/contacts-list/blob/main/src/assets/images/app1.png" alt="Detail" width="400" />
 </p>
 
 This project utilizes the following technologies and libraries:
