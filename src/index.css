@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.MuiListItem-root {
+  height: 70px !important;
+  margin-bottom: 14px;
+}
+
+.MuiTab-root {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 170px !important;
+  border-radius: 50px !important;
+  text-transform: capitalize !important;
+  overflow: hidden !important;
+  color: rgb(148, 148, 148) !important;
+  font-family: "Wix Madefor Display", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  transition: 0.4s all;
+}
+
+.MuiTouchRipple-root {
+  display: none !important;
+}
+
+.MuiTab-root.Mui-selected {
+  border-bottom: 0px !important;
+  color: #8b5cf6 !important;
+  background: white !important;
+  transition: 0.3s all !important;
+}
+
+.MuiTabs-indicator {
+  width: 0px !important;
+}
+
+.animation-slide {
+  animation: fade-in-top 0.5s 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.animation-slide-input {
+  animation: fade-in-top-slide-input 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.animation-search {
+  animation: fade-in-right 0.5s 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.animation-text {
+  animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.animation-list {
+  animation: slide-in-bottom 0.5s 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.animation-letter {
+  animation: slide-in-right-letter 0.5s 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.animation-avatar {
+  animation: slide-in-left 0.5s 1.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-avatar {
+  0% {
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slide-in-right-letter {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-top-slide-input {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
