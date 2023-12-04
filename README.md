@@ -17,7 +17,7 @@ This project utilizes the following technologies and libraries:
 
 ```bash
 # 1. Clone the project folder to your local machine.
-git clone https://github.com/mustafakaracuha/crypto-tracker-app.git
+git clone https://github.com/mustafakaracuha/contacts-list.git
 
 # 2. Install dependencies using npm or yarn.
 npm install
